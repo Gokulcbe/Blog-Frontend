@@ -1,0 +1,113 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    /* background-image: url("https://c.wallhere.com/photos/00/5d/Breaking_Bad_RV-189831.jpg!d"); */
+
+  }
+  
+  .Appcontainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    background-color: #0556F3;
+  }
+  
+  .card {
+    width: 20rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    border: 2px solid #F6F6F6;
+    overflow: hidden;
+    margin: 0 0.5rem;
+  }
+  
+  .cardheader{
+    border-bottom: 1px solid #F6F6F6;
+    padding: 1rem 1.2rem;
+    background-color: #FBFBFB;
+  }
+  
+  .title {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #343434;
+    margin: 0;
+  }
+  
+  .label{
+    font-size: 0.8rem;
+    color: #343434;
+    margin: 0 0 0.3rem 0;
+    margin-top: 1rem;
+  }
+  
+  .cardbody{
+    padding: 0rem 1.2rem 1rem 1.2rem
+  }
+  
+  .input {
+    width: 16rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.08rem;
+    padding: 0.6rem 0.8rem;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    border: 1px solid #f3f3f3;
+  }
+  
+  ::placeholder {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #e8e8e8;
+  }
+  
+  .input:focus{
+    outline: none;
+  }
+  
+  .btn{
+    width: 100%;
+    display: inline;
+    background-color: #0556F3;
+    border-radius: 0.7rem;
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .errormessage{
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: red;
+    margin-top: 0.2rem;
+  }
+  .box{
+    background-color: lightgrey;
+    /* background-image: url("https://www.nawpic.com/media/2020/breaking-bad-nawpic-2-e1665344302828.png"); */
+    width: 500px;
+    height: 700px;
+    /* border: 15px solid green; */
+    padding: 50px;
+    margin: 20px;
+    transform: translate(45%,0%);
+    border-radius: 9px;
+    box-shadow: 0 8px 8px 0;
+    transform: translate(90%,5%);
+    background: #abbaab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   
+}
+.text{
+  box-shadow: 0 8px 8px 0;
+}
+  
